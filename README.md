@@ -35,6 +35,8 @@ After clone is completed, you need to install npm modules:
   `sudo apt update && sudo apt install -y curl`
 
   `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash`
+  
+  `nvm install node`
 
   `npm install -g @angular/cli`
 

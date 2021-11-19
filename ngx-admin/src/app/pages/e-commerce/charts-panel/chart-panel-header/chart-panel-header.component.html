@@ -1,0 +1,7 @@
+<ngx-legend-chart [legendItems]="chartLegend"></ngx-legend-chart>
+<nb-select id="nbSelect" class="period-select" [selected]="type" (selectedChange)="changePeriod($event)">
+  <nb-option *ngFor="let period of types" [value]="period">
+    {{ period }}
+  </nb-option>
+</nb-select>
+<!--<button id="dropSelect" class="period-select" type="button">click Me</button>-->

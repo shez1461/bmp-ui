@@ -1,0 +1,21 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "types": [
+      "jasmine",
+      "node",
+      "jquery"
+    ]
+  },
+  "files": [
+    "test.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+    "**/*.spec.ts",
+    "**/*.d.ts"
+  ]
+}

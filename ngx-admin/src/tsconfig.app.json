@@ -1,0 +1,18 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": false,
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "types": ["jquery"]
+  },
+  "files": [
+    "main.ts",
+    "polyfills.ts"
+  ],
+  "include": [
+    "**/*.d.ts"
+  ]
+}

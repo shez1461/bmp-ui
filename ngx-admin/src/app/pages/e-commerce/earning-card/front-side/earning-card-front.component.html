@@ -1,0 +1,36 @@
+<nb-card-header>
+  <span class="title">Health</span>
+  <!--
+  <nb-select [selected]="selectedCurrency" (selectedChange)="changeCurrency($event)">
+    <nb-option *ngFor="let currency of currencies" [value]="currency">{{ currency }}</nb-option>
+  </nb-select>
+  -->
+</nb-card-header>
+<nb-card-body>
+  <div class="chart-info">
+    <!--<div class="h4"><span class="text-success">Excellent</span> 
+      {{ earningLiveUpdateCardData.dailyIncome | ngxNumberWithCommas }}
+    </div>
+    -->
+    <!-- <div class="h4"><span class="text-warning">Warning</span></div> -->
+    <div class="h4"><span class="text-danger">Error</span></div>
+    <div class="details subtitle-2 text-danger"><span>Node 22 - Unable to form quorum</span></div>
+    <div class="details subtitle-2 text-danger"><span>Node 23 - Not reachable</span></div>
+    <!--
+    <div class="delta"
+         [class.up]="earningLiveUpdateCardData.delta.up"
+         [class.down]="!earningLiveUpdateCardData.delta.up">
+      <nb-icon [icon]="earningLiveUpdateCardData.delta.up ? 'arrow-up' : 'arrow-down'"
+               pack="eva"
+               class="direction">
+      </nb-icon>
+      {{ earningLiveUpdateCardData.delta.value }}%
+    </div>
+    -->
+  </div>
+  <!--
+  <ngx-earning-live-update-chart
+    [liveUpdateChartData]="liveUpdateChartData">
+  </ngx-earning-live-update-chart>
+  -->
+</nb-card-body>

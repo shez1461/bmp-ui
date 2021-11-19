@@ -1,0 +1,6 @@
+{
+  "/Bmp": {
+    "target": "http://10.10.1.65",
+    "secure": false
+  }
+}

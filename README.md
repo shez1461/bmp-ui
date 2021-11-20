@@ -1,3 +1,5 @@
+# bmp-ui Demo
+[![BMP Demo](https://img.youtube.com/vi/EHg6HqbTcQo/0.jpg)](https://youtu.be/EHg6HqbTcQo)
 
 # Bamboo Monitoring/Management Portal
 
@@ -51,7 +53,4 @@ Follow the installation instructions prompted required & After installation is c
 **To start http serve**:
 
   `npm run start`
-
-# bmp-ui Demo
-[![BMP Demo](https://img.youtube.com/vi/EHg6HqbTcQo/0.jpg)](https://youtu.be/EHg6HqbTcQo)
 
